@@ -15,7 +15,7 @@ Dependency-free PHP toolset to generate Font Awesome icon classes, HTML tags, an
 composer require bugo/fa-icon-builder
 ```
 
-## Using
+## Usage
 
 A unique decorator is provided for each icon set:
 
