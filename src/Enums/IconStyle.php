@@ -4,6 +4,8 @@ namespace Bugo\FontAwesome\Enums;
 
 use InvalidArgumentException;
 
+use function str_starts_with;
+
 enum IconStyle
 {
     case Brands;

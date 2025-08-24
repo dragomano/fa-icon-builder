@@ -9,6 +9,14 @@ use Bugo\FontAwesome\Enums\IconSize;
 use Bugo\FontAwesome\Enums\IconStyle;
 use InvalidArgumentException;
 
+use function array_map;
+use function array_rand;
+use function array_unique;
+use function implode;
+use function is_string;
+use function preg_match;
+use function str_starts_with;
+
 class Icon implements \Stringable
 {
     protected ?IconSize $size = null;

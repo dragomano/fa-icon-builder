@@ -5,6 +5,10 @@ namespace Bugo\FontAwesome;
 use Bugo\FontAwesome\Enums\IconSize;
 use Bugo\FontAwesome\Enums\IconStyle;
 
+use function array_merge;
+use function implode;
+use function str_starts_with;
+
 class IconRenderer
 {
     public static function render(

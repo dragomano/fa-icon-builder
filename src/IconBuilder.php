@@ -4,6 +4,12 @@ namespace Bugo\FontAwesome;
 
 use Bugo\FontAwesome\Enums\IconStyle;
 
+use function count;
+use function explode;
+use function implode;
+use function preg_replace;
+use function str_replace;
+
 class IconBuilder
 {
     public static function make(string $iconClass): Icon
