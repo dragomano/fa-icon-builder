@@ -19,6 +19,12 @@ class IconBuilder
     {
         $cleaned = preg_replace('/^(fa[srb]?|fa-(solid|regular|brands))\s+/', '', $iconClass);
 
-        return str_replace('fa-', '', $cleaned);
+        $parts = explode(' ', (string) $cleaned);
+
+        if (count($parts) > 0) {
+            $parts[0] = str_replace('fa-', '', $parts[0]);
+        }
+
+        return implode(' ', $parts);
     }
 }
