@@ -7,7 +7,7 @@
 
 ## Description
 
-Dependency-free PHP toolset to generate Font Awesome icon classes, HTML tags, and collections (Solid/Regular/Brands). Perfect for projects where you need to work with FA icons without loading CSS/JS.
+Dependency-free PHP toolset to generate Font Awesome icon classes, HTML tags, and collections (Solid/Regular/Brands). Perfect for projects where you need to work with FA icons.
 
 ## Installation
 
